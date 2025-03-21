@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-const mongoURI = 'mongodb+srv://kumarpatelrakesh222:5rqdGjk2vBtKdVob@uploads.tc9np.mongodb.net/echosealDB?retryWrites=true&w=majority&appName=uploads';
+const mongoURI = 'mongodb+srv://kumarpatelrakesh222:5rqdGjk2vBtKdVob@uploads.tc9np.mongodb.net/?retryWrites=true&w=majority&appName=uploads';
 
 mongoose.connect(mongoURI)
   .then(() => console.log('✅ Connected to MongoDB'))
